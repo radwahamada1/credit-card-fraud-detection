@@ -1,10 +1,10 @@
-# 💳 Credit Card Fraud Detection
+# Credit Card Fraud Detection
 
 An end-to-end **Machine Learning pipeline** for detecting fraudulent credit card transactions in a highly imbalanced financial dataset.
 
 The project focuses on **model selection, class imbalance, and the Precision–Recall trade-off**, with each modeling approach evaluated based on both performance and practical business impact.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -16,7 +16,7 @@ The project focuses on **model selection, class imbalance, and the Precision–R
 
 ---
 
-## 🎯 Problem
+##  Problem
 
 Fraud detection is an extremely imbalanced classification problem.
 
@@ -32,7 +32,7 @@ The project focuses on:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 This project uses the **Credit Card Fraud Detection Dataset** from Kaggle.
 
@@ -45,7 +45,7 @@ This project uses the **Credit Card Fraud Detection Dataset** from Kaggle.
 
 ---
 
-## 🔄 Modeling Process
+##  Modeling Process
 
 ### 1. Logistic Regression — Baseline
 
@@ -132,7 +132,7 @@ Initial tuning with `scale_pos_weight` demonstrated how changing the cost assign
 
 ---
 
-## 🏆 Final Model — Cost-Sensitive XGBoost
+##  Final Model — Cost-Sensitive XGBoost
 
 The final approach used **XGBoost with cost-sensitive learning**, using `scale_pos_weight` based on the class imbalance ratio.
 
@@ -158,7 +158,7 @@ XGBoost was selected because it:
 
 ---
 
-## 📈 Model Comparison
+## Model Comparison
 
 | Model | Strategy | Precision | Recall | F1 |
 |---|---|---:|---:|---:|
@@ -172,7 +172,7 @@ The final model was selected based on the practical balance between **detecting 
 
 ---
 
-## 🧠 Key Takeaways
+##  Key Takeaways
 
 - **Accuracy is misleading** for extreme class imbalance.
 - A simple baseline helps determine whether added complexity provides real value.
@@ -184,7 +184,7 @@ The final model was selected based on the practical balance between **detecting 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 credit-card-fraud-detection/
