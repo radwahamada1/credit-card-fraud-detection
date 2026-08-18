@@ -34,12 +34,14 @@ The project focuses on:
 
 ## 📊 Dataset
 
-**Kaggle Credit Card Fraud Detection Dataset**
+This project uses the **Credit Card Fraud Detection Dataset** from Kaggle.
 
 - **284,807** transactions
-- **0.172%** fraud
+- **0.172%** fraudulent transactions
 - **99.828%** legitimate transactions
-- Binary classification problem
+- Highly imbalanced binary classification problem
+
+🔗 [View Dataset on Kaggle](https://www.kaggle.com/datasets/radwahamada/credit-card-dataset)
 
 ---
 
